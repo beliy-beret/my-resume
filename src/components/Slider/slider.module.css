@@ -1,0 +1,21 @@
+.slider {
+    display: flex;
+    gap: 1rem;
+    width: 85%;
+    justify-content: center;
+}
+.navigation {
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.projectList {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3, 32%);
+}
+.disabled {
+    opacity: 0;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
