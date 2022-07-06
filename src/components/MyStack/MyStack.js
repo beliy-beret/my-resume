@@ -11,7 +11,7 @@ const MyStack = () => {
         <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png'} alt={'JavaScript'}/>
         <img src={'https://miro.medium.com/0*iib7UI_uS5HOu6Fz.png'} alt={'TypeScript'}/>
         <img src={'https://ensocore.com/media/61/reactjs-logo-sticker%20%281%29.jpg'} alt={'React'}/>
-        <img src={'https://miro.medium.com/max/800/1*ZxmcaOzul181U6BT5z-Ipw.png'} alt={'Redux'}/>
+        <img src={'https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/04/21032431/redux-cover-imgage-1024x768.jpg'} alt={'Redux'}/>
       </div>
     </section>
   );

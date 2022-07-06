@@ -6,13 +6,13 @@ import Projects from '../Projects/Projects';
 import MyStack from '../MyStack/MyStack';
 
 const App = () => {
-  return(
+  return (
     <>
       <div className={style.wrapper}>
-        <About />
-        <Contacts />
-        <MyStack />
-        <Projects />
+        <About/>
+        <Contacts/>
+        <MyStack/>
+        <Projects/>
       </div>
       <div className={style.footer}>Буду рад сотрудничеству !</div>
     </>
