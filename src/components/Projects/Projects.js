@@ -1,19 +1,19 @@
-import {useState} from "react";
-import Slider from "../Slider/Slider";
+import React, {useState} from 'react';
+import Slider from '../Slider/Slider';
 import style from './projects.module.css';
 
-import calc from "../../assets/image/calculator.jpg";
-import weather from "../../assets/image/weather.png";
-import cinema from "../../assets/image/Cinema.jpg";
-import todo from "../../assets/image/react_TODO.png";
-import petShop from "../../assets/image/PetShop.png";
-import slider from "../../assets/image/Slider.png";
-import clothStore from "../../assets/image/clothing-store.png";
-import computer from "../../assets/image/Computer.png";
-import jsToDo from "../../assets/image/js_todo.png";
-import news from "../../assets/image/news.png";
-import samurai from "../../assets/image/samurai.png";
-import JSONPlaceholder from "../../assets/image/JsonPlaceholder.png";
+import calc from '../../assets/image/calculator.jpg';
+import weather from '../../assets/image/weather.png';
+import cinema from '../../assets/image/Cinema.jpg';
+import todo from '../../assets/image/react_TODO.png';
+import petShop from '../../assets/image/PetShop.png';
+import slider from '../../assets/image/Slider.png';
+import clothStore from '../../assets/image/clothing-store.png';
+import computer from '../../assets/image/Computer.png';
+import jsToDo from '../../assets/image/js_todo.png';
+import news from '../../assets/image/news.png';
+import samurai from '../../assets/image/samurai.png';
+import JSONPlaceholder from '../../assets/image/JsonPlaceholder.png';
 
 const projectList = [
   {
@@ -120,7 +120,7 @@ const Projects = () => {
         activeSlide={activeSlide}
       />
     </section>
-  )
-}
+  );
+};
 
 export default Projects;

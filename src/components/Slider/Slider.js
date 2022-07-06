@@ -1,4 +1,6 @@
-import ProjectCard from "../ProjectCard/ProjectCard";
+import React from 'react';
+import Types from 'prop-types';
+import ProjectCard from '../ProjectCard/ProjectCard';
 import style from './slider.module.css';
 
 const Slider = ({projects, nextSlide, prevSlide, activeSlide, slides}) => {
@@ -17,7 +19,15 @@ const Slider = ({projects, nextSlide, prevSlide, activeSlide, slides}) => {
       </div>
       <button className={activeSlide === slides ? style.disabled : style.navigation} onClick={nextSlide}>&#187;</button>
     </div>
-  )
-}
+  );
+};
+
+Slider.propTypes = {
+  projects: Types.array,
+  nextSlide: Types.func,
+  prevSlide: Types.func,
+  activeSlide: Types.number,
+  slides: Types.array
+};
 
 export default Slider;

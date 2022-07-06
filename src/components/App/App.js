@@ -1,7 +1,8 @@
+import React from 'react';
 import style from './app.module.css';
 import About from '../About/About';
-import Contacts from "../Contacts/Contacts";
-import Projects from "../Projects/Projects";
+import Contacts from '../Contacts/Contacts';
+import Projects from '../Projects/Projects';
 
 const App = () => {
   return(
@@ -10,7 +11,7 @@ const App = () => {
       <Contacts />
       <Projects />
     </div>
-  )
-}
+  );
+};
 
 export default App;
