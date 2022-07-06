@@ -1,9 +1,10 @@
 import style from './app.module.css';
+import About from '../About/About';
 
 const App = () => {
   return(
     <div className={style.app}>
-      Hello React + Parcel
+      <About />
     </div>
   )
 }
