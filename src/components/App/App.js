@@ -6,11 +6,14 @@ import Projects from '../Projects/Projects';
 
 const App = () => {
   return(
-    <div className={style.app}>
-      <About />
-      <Contacts />
-      <Projects />
-    </div>
+    <>
+      <div className={style.wrapper}>
+        <About />
+        <Contacts />
+        <Projects />
+      </div>
+      <div className={style.footer}>Буду рад сотрудничеству !</div>
+    </>
   );
 };
 

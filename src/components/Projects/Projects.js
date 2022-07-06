@@ -111,7 +111,7 @@ const Projects = () => {
 
   return(
     <section className={style.projects}>
-      <h2>Мои работы:</h2>
+      <h2 className={style.title}>Мои работы:</h2>
       <Slider
         projects={currentProjectPortion}
         nextSlide={nextSlide}

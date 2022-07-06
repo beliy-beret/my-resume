@@ -1,4 +1,12 @@
-.app {
+.wrapper {
     width: 90%;
     margin: 0 auto;
+}
+.footer {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
 }
