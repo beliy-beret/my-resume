@@ -1,5 +1,8 @@
 .contacts {
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 .title {
     font-size: 2rem;
@@ -7,9 +10,13 @@
 }
 .contactList {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     list-style: none;
-    padding-left: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #d2d1d1;
+    box-shadow: 0 0 10px grey;
+    height: 81%;
 }
 .contactList a {
     color: black;
