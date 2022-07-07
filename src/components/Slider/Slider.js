@@ -27,7 +27,7 @@ Slider.propTypes = {
   nextSlide: Types.func,
   prevSlide: Types.func,
   activeSlide: Types.number,
-  slides: Types.array
+  slides: Types.number
 };
 
 export default Slider;
