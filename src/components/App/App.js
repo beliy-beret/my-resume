@@ -4,6 +4,7 @@ import About from '../About/About';
 import Contacts from '../Contacts/Contacts';
 import Projects from '../Projects/Projects';
 import MyStack from '../MyStack/MyStack';
+import MailForm from '../MailForm/MailForm';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Contacts/>
         <MyStack/>
         <Projects/>
+        <MailForm />
       </div>
       <div className={style.footer}>Буду рад сотрудничеству !</div>
     </>
