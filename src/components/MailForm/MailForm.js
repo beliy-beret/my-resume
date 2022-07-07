@@ -4,13 +4,15 @@ import emailjs from '@emailjs/browser';
 import style from './mailForm.module.css';
 
 const MailForm = () => {
-  const {register, handleSubmit} = useForm();
+  const {register, handleSubmit, reset} = useForm();
   const onSubmit = (data) => {
     emailjs.send('contact_service', 'contact_form', data, 'bxjVLUG1TrJZY2Kj9')
-      .then((result) => {
-        console.log(result);
-      }, (error) => {
-        console.log(error);
+      .then(() => {
+        alert('Сообщение отправлено.');
+        reset();
+      }, () => {
+        alert('Что-то пошло не так.');
+        reset();
       });
   };
 
