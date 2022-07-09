@@ -2,13 +2,20 @@
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
     gap: 1rem;
 }
-.title {
+.listTitle, .formTitle {
     font-size: 2rem;
     text-decoration: underline;
 }
+.listTitle {
+    grid-column: 1;
+    grid-row: 1;
+}
 .contactList {
+    grid-column: 1;
+    grid-row: 2;
     margin-top: 1rem;
     font-size: 1.4rem;
     list-style: none;
@@ -16,7 +23,6 @@
     padding: 1rem;
     border: 1px solid #d2d1d1;
     box-shadow: 0 0 10px grey;
-    height: 83%;
 }
 .contactList a {
     color: black;
@@ -24,4 +30,8 @@
 }
 .contactList a:hover {
     text-decoration: underline;
+}
+.formTitle {
+    grid-column: 2;
+    grid-row: 1;
 }

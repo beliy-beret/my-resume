@@ -1,3 +1,9 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .wrapper {
     width: 90%;
     margin: 0 auto;

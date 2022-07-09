@@ -7,7 +7,7 @@ import MyStack from '../MyStack/MyStack';
 
 const App = () => {
   return (
-    <>
+    <div className={style.app}>
       <div className={style.wrapper}>
         <About/>
         <MyStack/>
@@ -15,7 +15,7 @@ const App = () => {
         <Contacts/>
       </div>
       <div className={style.footer}>Буду рад сотрудничеству !</div>
-    </>
+    </div>
   );
 };
 

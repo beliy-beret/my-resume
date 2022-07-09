@@ -1,17 +1,18 @@
 .slider {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     gap: 1rem;
     justify-content: space-between;
 }
 .navigation {
+    flex: 1 1 auto;
     font-size: 2rem;
     padding: 0.5rem;
     cursor: pointer;
 }
 .projectList {
-    display: grid;
-    gap: 2%;
-    grid-template-columns: repeat(3, 32%);
+    display: flex;
+    gap: 1rem;
 }
 .disabled {
     opacity: 0;
