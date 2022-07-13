@@ -14,6 +14,7 @@ import jsToDo from '../../assets/image/js_todo.png';
 import news from '../../assets/image/news.png';
 import samurai from '../../assets/image/samurai.png';
 import JSONPlaceholder from '../../assets/image/JsonPlaceholder.png';
+import snake from '../../assets/image/snake.png';
 
 const projectList = [
   {
@@ -88,10 +89,16 @@ const projectList = [
     title: 'JSONPlaceholder project',
     url: 'https://jsonp-laceholder-1cv36q6m9-beliy-beret.vercel.app/',
   },
+  {
+    id: 13,
+    screenShot: snake,
+    title: 'Snake',
+    url: 'https://snake-i4kk3k2na-beliy-beret.vercel.app/',
+  }
 ];
 
 const Projects = () => {
-  const [activeSlide, setActiveSlide] = useState(2);
+  const [activeSlide, setActiveSlide] = useState(1);
   const projectPerSlide = 3;
   const numberOfSlides = Math.ceil(projectList.length / projectPerSlide);
   const lastProjectIndex = activeSlide * projectPerSlide;
