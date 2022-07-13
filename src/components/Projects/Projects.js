@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Slider from '../Slider/Slider';
 import style from './projects.module.css';
 
@@ -94,7 +94,7 @@ const projectList = [
     screenShot: snake,
     title: 'Snake',
     url: 'https://snake-i4kk3k2na-beliy-beret.vercel.app/',
-  }
+  },
 ];
 
 const Projects = () => {
@@ -103,20 +103,23 @@ const Projects = () => {
   const numberOfSlides = Math.ceil(projectList.length / projectPerSlide);
   const lastProjectIndex = activeSlide * projectPerSlide;
   const firstProjectIndex = lastProjectIndex - projectPerSlide;
-  const currentProjectPortion = projectList.slice(firstProjectIndex, lastProjectIndex);
+  const currentProjectPortion = projectList.slice(
+    firstProjectIndex,
+    lastProjectIndex
+  );
 
   const nextSlide = () => {
-    if(activeSlide < numberOfSlides) {
+    if (activeSlide < numberOfSlides) {
       setActiveSlide(activeSlide + 1);
     }
   };
   const prevSlide = () => {
-    if(activeSlide > 1) {
+    if (activeSlide > 1) {
       setActiveSlide(activeSlide - 1);
     }
   };
 
-  return(
+  return (
     <section className={style.projects}>
       <h2 className={style.title}>Мои работы:</h2>
       <Slider
