@@ -13,6 +13,7 @@
   ],
   "author": "S.U.Skorobogatov",
   "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "prop-types": "^15.8.1",

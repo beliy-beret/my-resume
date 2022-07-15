@@ -1,17 +1,16 @@
 .slider {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    gap: 1rem;
-    justify-content: space-between;
+    gap: 0.5rem;
 }
 .navigation {
-    flex: 1 1 auto;
     font-size: 2rem;
     padding: 0.5rem;
     cursor: pointer;
 }
 .projectList {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 .disabled {

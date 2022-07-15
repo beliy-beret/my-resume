@@ -34,8 +34,52 @@
     text-indent: 30px;
 }
 
+@media screen and (max-width: 1199px) {
+    .about {
+        display: block;
+    }
+    .myAva {
+        float: left;
+        margin-right: 2rem;
+    }
+    .description {
+        margin: 0;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 993px) {
+    .title {
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width: 767px) {
     .about {
-
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto auto;
+    }
+    .myAva {
+        display: block;
+        grid-row: 1;
+        grid-column: 2;
+        justify-self: center;
+    }
+    .title {
+        grid-row: 2;
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+    .description {
+        grid-row: 3;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 3rem;
+    }
+    .description {
+        font-size: 1rem;
     }
 }

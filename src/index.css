@@ -18,15 +18,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh;
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
-    background-color: #e8e8e8;
-}
-#root {
-    width: 100vw;
-    height: 100vh;
-
 }
