@@ -8,7 +8,7 @@
     grid-template-rows: 1fr auto;
 }
 .card:hover {
-    border-color: #fc7474;
+    border-color: #d0b9f3;
 }
 .imgContainer {
     grid-row: 1;
@@ -66,9 +66,9 @@
         padding: 0.5rem;
     }
     .imgContainer img {
-        height: 250px;
+        height: 200px;
     }
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
