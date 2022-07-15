@@ -38,7 +38,7 @@ const projectList = [
   {
     id: 4,
     screenShot: todo,
-    title: 'React ToDo list',
+    title: 'React ToDo',
     url: 'https://beliy-beret.github.io/DAO_Tech-test/',
   },
   {
@@ -68,7 +68,7 @@ const projectList = [
   {
     id: 9,
     screenShot: jsToDo,
-    title: 'JavaScript ToDo list',
+    title: 'JavaScript ToDo',
     url: 'https://beliy-beret.github.io/JS_ToDo/',
   },
   {
@@ -86,7 +86,7 @@ const projectList = [
   {
     id: 12,
     screenShot: JSONPlaceholder,
-    title: 'JSONPlaceholder project',
+    title: 'JSONPlaceholder',
     url: 'https://jsonp-laceholder-1cv36q6m9-beliy-beret.vercel.app/',
   },
   {

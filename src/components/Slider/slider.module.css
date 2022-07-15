@@ -18,3 +18,19 @@
     font-size: 2rem;
     padding: 0.5rem;
 }
+
+@media screen and (max-width: 991px) {
+    .navigation {
+        padding: 0.1rem;
+        font-size: 1.3rem;
+    }
+    .projectList {
+        gap: 0.2rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .projectList {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+}

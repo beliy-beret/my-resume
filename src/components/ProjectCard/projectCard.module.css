@@ -23,5 +23,52 @@
 .title {
     grid-row: 2;
     text-align: center;
+    font-size: 2rem;
 }
 
+@media screen and (max-width: 1399px) {
+    .imgContainer img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .imgContainer img {
+        height: 150px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .card {
+        border-width: 3px;
+        padding: 0.3rem;
+    }
+    .imgContainer img {
+        height: 100px;
+    }
+    .title {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .imgContainer img {
+        height: 90px;
+    }
+    .title {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .card {
+        border-width: 3px;
+        padding: 0.5rem;
+    }
+    .imgContainer img {
+        height: 250px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+}
