@@ -6,7 +6,7 @@
     width: 100vw;
     max-width: 1600px;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
 }
 .wrapper {
     flex: 1;
