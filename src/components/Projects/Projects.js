@@ -81,7 +81,7 @@ const projectList = [
     id: 11,
     screenShot: samurai,
     title: 'Social network',
-    url: 'https://github.com/beliy-beret/the_way_of_samurai/deployments/activity_log?environment=github-pages',
+    url: 'https://beliy-beret.github.io/the_way_of_samurai/',
   },
   {
     id: 12,
